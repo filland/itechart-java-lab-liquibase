@@ -1,5 +1,7 @@
-package com.itechart.database;
+package com.itechart.api;
 
+import com.itechart.database.User;
+import com.itechart.database.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
